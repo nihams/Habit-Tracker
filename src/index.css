@@ -1,7 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+h1 {
+  font-family: "Shadows Into Light", serif;
+  font-weight: 600;
+  font-size: 36px;
+  font-style: normal;
+  color: #34495E;
+  /* color: #1d5f7b; */
+  margin-bottom: 15px;
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-    Arial, sans-serif;
-  margin: auto;
-  max-width: 38rem;
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #bdd2f3;
+  height: 100vh;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  text-align: center;
+  width: 250px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #6d869f; /* Highlight effect */
+}
+
+/* Label */
+label,p {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+  display: block;
+}
+
+/* Button Styling */
+button {
+  background-color: #34495E;
+  color: white;
+  font-family: "Quicksand", serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #54799d;
 }
