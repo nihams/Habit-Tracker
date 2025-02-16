@@ -7,7 +7,6 @@ h1 {
   font-size: 36px;
   font-style: normal;
   color: #34495E;
-  /* color: #1d5f7b; */
   margin-bottom: 15px;
 }
 
@@ -64,4 +63,17 @@ button {
 
 button:hover {
   background-color: #54799d;
+}
+
+h2{
+  font-family: "Shadows Into Light", serif;
+  font-weight: 500;
+  font-size: 25px;
+  font-style: normal;
+  color: #34495E;
+  margin-top: 25px;
+}
+
+iframe {
+  border: none;
 }

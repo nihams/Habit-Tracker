@@ -5,12 +5,18 @@
     <title>Habit Tracker: Page Count</title>
     <link rel="stylesheet" href="index.css" />
   </head>
+
   <body>
     <h1>Habit Tracker: Page Count</h1>
     <p>Welcome to your application!</p>
     <label for="pageInput">Enter number of pages read:</label>
     <input type="number" id="pageInput" placeholder="Pages read...">
     <button id="submitPages">Submit</button>
+
+    <h2 id="graphHead">Your Reading Graph</h2>
+    <iframe id="graph" style="width: 800px; height: 600px;">
+    </iframe>
+
     <script src="renderer.js"></script>
   </body>
 </html>
