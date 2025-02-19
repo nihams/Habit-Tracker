@@ -72,5 +72,3 @@ Habit-Tracker depends on the following libraries and frameworks:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
-
-*Generated on 2025-02-16 17:21:29 by [nihams](https://github.com/nihams).*
